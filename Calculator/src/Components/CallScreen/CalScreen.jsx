@@ -1,8 +1,13 @@
 import styles from "../CallScreen/CallScreen.module.css";
-const CalScreen = () => {
+const CalScreen = ({ calVal }) => {
   return (
     <>
-      <input className={`${styles.calScreen}`} type="text" readOnly />
+      <input
+        className={`${styles.calScreen}`}
+        type="text"
+        value={calVal}
+        readOnly
+      />
     </>
   );
 };

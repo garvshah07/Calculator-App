@@ -1,8 +1,8 @@
 import styles from "../CalButtons/CalButtons.module.css";
 
-const CallButtons = () => {
+const CallButtons = ({ onCallButtonHandler }) => {
   const buttons = [
-    "c",
+    "C",
     "1",
     "2",
     "+",
@@ -25,7 +25,11 @@ const CallButtons = () => {
     <div className={`${styles.CallButtons}`}>
       <>
         {buttons.map((button) => (
-          <button className={`${styles.Button}`} key={button}>
+          <button
+            onClick={() => onCallButtonHandler(button)}
+            className={`${styles.Button}`}
+            key={button}
+          >
             {button}
           </button>
         ))}
