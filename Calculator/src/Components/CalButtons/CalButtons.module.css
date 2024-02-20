@@ -2,9 +2,16 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 7px;
+  gap: 10px;
 }
 .Button {
   width: 45px;
   height: 45px;
+  border-radius: 5px;
+  background-color: bisque;
+  font-weight: 600;
+  text-align: center;
+  align-items: center;
+  border: none;
+  text-decoration: none;
 }

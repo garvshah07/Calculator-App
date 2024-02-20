@@ -19,9 +19,11 @@ function App() {
   };
 
   return (
-    <div className="cal-container">
-      <CalScreen calVal={calVal} />
-      <CallButtons onCallButtonHandler={buttonHandler} />
+    <div className="container">
+      <div className="cal-container">
+        <CalScreen calVal={calVal} />
+        <CallButtons onCallButtonHandler={buttonHandler} />
+      </div>
     </div>
   );
 }
