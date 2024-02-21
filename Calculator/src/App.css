@@ -3,12 +3,13 @@
   padding: 0px;
   box-sizing: border-box;
 }
-
+.body {
+  background-color: rgb(33, 29, 29);
+}
 .container {
   width: 100%;
   display: flex;
   justify-content: center;
-  background-color: rgb(33, 29, 29);
 }
 
 .cal-container {
