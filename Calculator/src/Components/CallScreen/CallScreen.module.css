@@ -1,7 +1,17 @@
 .calScreen {
+  display: flex;
+  justify-content: center;
+  text-align: right;
   height: 40px;
-  width: fit-content;
-  font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  /* width: 100%; */
+  padding: 0px 10px;
+  background: rgba(255, 255, 255, 0.2);
   border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }

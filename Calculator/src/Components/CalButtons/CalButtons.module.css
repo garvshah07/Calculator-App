@@ -3,6 +3,7 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 10px;
+  background-color: transparent;
 }
 .Button {
   width: 45px;
@@ -14,4 +15,5 @@
   align-items: center;
   border: none;
   text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
